@@ -1,3 +1,4 @@
+#beta
 botrl = """
 .--..----..---..---. 
 |-< | || |`| |'| |-< 
@@ -6,6 +7,7 @@ botrl = """
 """
 print (botrl)
 print ("BoG - technologies")
+
 otsion = input("Wifi a hackear(1.ubee/2.Arris): ")
 if otsion=="1":
   string = input("Mac(bssid): ")
